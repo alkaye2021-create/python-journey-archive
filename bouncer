@@ -1,0 +1,21 @@
+name = "bob"
+print(f"nice to meet you, {name}")
+age = int(input("enter your age: "))
+#----
+if age <= 0:
+    print("you don't exist yet")
+elif age >= 100:
+    print("lol old")
+elif 80 <= age < 100:
+    print("veteran detected")
+elif age == 18:
+    print(f"welcome to adulthood, {name}!")
+#----
+if age > 18:
+    print("let's play")
+else:
+    print("you are too young to play.")
+    
+   
+
+
