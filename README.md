@@ -1,1 +1,1 @@
-noob makes pizza calculator practicing // and %
+python noob on a mission
