@@ -1,0 +1,18 @@
+units = input("convert dollars to pounds, or pounds to dollars? (dtp/ptd) ").lower().strip()
+
+dollars_to_pounds = "dtp"
+pounds_to_dollars = "ptd"
+
+exchange_rate = 0.749099
+
+if units == dollars_to_pounds:
+    dollars = float(input("how many dollars? "))
+    pounds = dollars * exchange_rate
+    print(f"${dollars:.2f} is around £{pounds:.2f}.")
+
+elif units == pounds_to_dollars:
+    pounds = float(input("how many pounds? "))
+    dollars = pounds / exchange_rate
+    print(f"£{pounds:.2f} is around ${dollars:.2f}.")
+else:
+    print("invalid input.")
