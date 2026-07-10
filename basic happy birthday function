@@ -1,0 +1,11 @@
+#function
+
+def happy_birthday(name, age):
+    print(f"happy birthday to {name}!")
+    print(f"you are {age} years old!")
+    print("happy birthday toooo youuu!")
+
+
+happy_birthday("joe", 20)
+happy_birthday("bob", 30)
+happy_birthday("steve", 294)
