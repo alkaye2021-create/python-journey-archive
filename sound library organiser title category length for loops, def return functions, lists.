@@ -1,0 +1,15 @@
+def sound_data(title, category, length):
+    sound_title = title.title()
+    sound_category = category.capitalize()
+    return f"{sound_title} | {sound_category} | {length}"
+
+sounds = [
+
+    ("lazer gun", "futuristic", "0:04"),
+    ("blaster", "futuristic", "0:02"),
+    ("pew pew pew", "futuristic", "0:22")
+]
+
+for sound_title, sound_category, length in sounds:
+    print(sound_data(sound_title, sound_category, length))
+
