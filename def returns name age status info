@@ -1,0 +1,19 @@
+people = [
+    ("molly", 86),
+    ("edna", 99),
+    ("brenda", 77),
+    ("bob", 44),
+    ("bill", 33)
+]
+
+def information(name, age):
+    name = name.capitalize()
+    if age >= 50:
+        status = "Old"
+    else:
+        status = "Young"
+    return f"{name} | {age} | {status}"
+
+for name, age in people:
+    print(information(name, age))
+
